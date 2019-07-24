@@ -1,0 +1,61 @@
+
+.logo{
+margin-top: 35px;
+background-image: url('assets/img/rika5nomvillegris.jpg');
+}
+
+.nav{
+ font-family: 'Josefin Sans', sans-serif;
+ /* 'PT Sans', sans-serif; */
+ color : #303136 !important;
+ outline: none;
+ }
+ .nav-link{
+  color : #313139;
+ }
+ a : hover {
+  color: red;
+ }
+ .submenu{
+   display:none;
+   color: #313139;
+   transform: scale(1.1);
+ }
+
+.dropdown:hover > .dropdown-menu{
+  display: block;
+}
+
+ H1{
+   font-family: 'Josefin Sans';
+   font-weight: bold;
+   margin-top: 20px;
+   color:#323136;
+
+}
+ p{
+   font-family: 'Darker Grotesque', sans-serif;
+   font-weight: 600;
+ }
+ hr{
+height: 3px;
+background-color: #EA510D;
+border-radius: 5px;
+ }
+
+
+#logomobile{
+  display: none;
+}
+@media screen and (max-width: 700px)
+{
+#logodeskop {
+  display: none;
+}
+#logomobile{
+  display: block;
+  }
+#mainCarousel{
+  size: 50%;
+}
+}
